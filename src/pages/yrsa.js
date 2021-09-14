@@ -3,18 +3,15 @@ import styled from 'styled-components';
 import { GlobalStyle } from '../components/GlobalStyle';
 import Layout from '../components/Layout';
 
-const Text = styled.h1`
-  color: green;
-`;
 
-const IndexPage = () => {
+
+const YrsaPage = () => {
   return(
-    <>
-      <GlobalStyle />
-        <Text>HEJJJJJJ</Text>
-    </>
+    <Layout>
+
+    </Layout>
   )
 }
 
 
-export default IndexPage
+export default YrsaPage;
